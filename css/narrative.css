@@ -110,16 +110,88 @@
 	margin-top: 50px;
 }
 #skills{
-	font-size: 30px;
-	line-height: 30px;
 	width: auto;
 	height: 30px;
-	display: block;
 	margin-top:100px ;
+	font-size: 35px;
+	text-align: center;
 }
 #skills_icon{
 	width: 1080px;
-	height: 268px;
+	height: 212px;
 	background: url(../img/skills_icon.jpg);
-	margin-top: 100px;
+	margin-top: 50px;
+}
+#contact{
+	width: auto;
+	height: 600px;
+	background: #FAFAFA;
+	margin-top:100px ;
+	text-align: center;
+}
+#contact_name{
+	font-size: 35px;
+}
+#contact_visit_name{
+	margin-top:50px ;
+	float: left;
+	width: 490px;
+	background-color: #F0F0F0;
+	border: none;
+	padding: 20px;
+}
+#contact_information{
+	margin-top:50px ;
+	float: right;
+	width: 490px;
+	background-color:#F0F0F0;
+	border: none;
+	padding: 20px;
+}
+#contact_messege{
+	margin-top:20px ;
+	width: 1040px;
+	height: 300px;
+	background-color: #F0F0F0;
+	border: none;
+	padding: 20px;
+}
+#send{
+	margin-top:20px ;
+	width: 1080px;
+	height: 50px;
+	border: 3px solid #333333;
+	background:none ;
+}
+#footer{
+	width: auto;
+	height: 500px;
+	background: #333333;
+}
+#qr_coad{
+	border: 50px solid #333333;
+	margin: auto;
+	background: url(../img/QR-code.png);
+	width: 250px;
+	height: 250px;
+}
+#phone{
+	line-height: 40px;
+	font-size: 20px;
+	color: #cacaca;
+	text-align: center;
+}
+#up{
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: url(../img/up.png) no-repeat center;
+	margin: 100px auto;
+}
+.target-fix{
+	position: relative;  
+    top: -50px;   
+    display: block;  
+    height: 0;  
+    overflow: hidden;
 }
