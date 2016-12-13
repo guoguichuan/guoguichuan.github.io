@@ -3,7 +3,7 @@
 	height: 100px;
 	background: #FFFFFF;
 	border-bottom:2px solid #f0f0f0 ;
-	position: fixed;top: 0;
+	position: fixed;top: 0px;
 }
 #main{
 	width: 1080px;
@@ -15,7 +15,7 @@
 	height: auto;
 	background: #FFFFFF;
 	border-bottom:2px solid #f0f0f0;
-	position: fixed;top: 0;
+	position: fixed;top: 0px;
 }
 #menu_fl{
 	float: right;
@@ -35,10 +35,19 @@
 	padding: 32px 35px;
 }
 #banner{
-	width: 1080px;
+	width: auto;
 	height: 685px;
-	background:url(../img/banner_main.jpg) ;
-	margin-top:100px;
+	background:url(../img/banner_04.jpg) ;
+	background-position:center ;
+	background-size:cover ;
+	margin-top:100px ;
+}
+#personal_frofile{
+	width: auto;
+	height: 400px;
+	background: url(../img/persinal-profile.png);
+	background-repeat: no-repeat;
+	background-position:bottom center;
 }
 #about{
 	width: auto;
@@ -94,8 +103,9 @@
 }
 #works{
 	width: 1080px;
-	height: 1359px;
+	height: 1409px;
 	background: url(../img/works_photograth.jpg);
+	background-repeat:no-repeat ;
 	margin-top: 100px;
 }
 #works_name{
@@ -114,9 +124,10 @@
 }
 #skills_icon{
 	width: 1080px;
-	height: 212px;
+	height: 262px;
 	background: url(../img/skills_icon.jpg);
-	margin-top: 50px;
+	background-repeat:no-repeat ;
+	margin-top: 80px;
 }
 #contact{
 	width: auto;
@@ -161,19 +172,19 @@
 }
 #footer{
 	width: auto;
-	height: 500px;
+	height: 400px;
 	background: #333333;
 }
 #qr_coad{
-	border: 50px solid #333333;
+	border: 45px solid #333333;
 	margin: auto;
 	background: url(../img/QR-code.png);
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
 }
 #phone{
-	line-height: 40px;
-	font-size: 20px;
+	line-height: 30px;
+	font-size: 17px;
 	color: #cacaca;
 	text-align: center;
 }
@@ -188,6 +199,6 @@
 	position: relative;  
     top: -50px;   
     display: block;  
-    height: 0;  
+    height: 0px;  
     overflow: hidden;
 }
