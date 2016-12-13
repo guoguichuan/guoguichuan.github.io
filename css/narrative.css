@@ -104,6 +104,56 @@
 #works{
 	width: 1080px;
 	height: 1409px;
+	margin-top: 100px;
+}
+#top_left{
+	width: 529px;
+	height: 529px;
+	background: url(../img/top_left.jpg) no-repeat;
+	background-position: bottom right;
+	float: left;
+}
+#top_right{
+	display: block;
+	width: 529px;
+	height: 529px;
+	background: url(../img/top_right.jpg) no-repeat;
+	float: right;
+}
+#middle_left{
+	width: 529px;
+	height: 529px;
+	background: url(../img/middle_left.jpg) no-repeat;
+	float: left;
+	margin-top: 22px;
+}
+#middle_right{
+	width: 529px;
+	height: 529px;
+	background: url(../img/middle_right.jpg) no-repeat;
+	float: right;
+	margin-top: 22px;
+}
+#bottom_left{
+	width: 529px;
+	height: 258px;
+	background: url(../img/bottom_left.jpg) no-repeat;
+	float: left;
+	background-position: right;
+	margin-top: 22px;
+}
+#bottom_right{
+	display: block;
+	width: 529px;
+	height: 258px;
+	background: url(../img/buttom_right.png) no-repeat;
+	float: right;
+	margin-top: 22px;
+}
+/*
+#works{
+	width: 1080px;
+	height: 1409px;
 	background: url(../img/works_photograth.jpg);
 	background-repeat:no-repeat ;
 	margin-top: 100px;
@@ -115,6 +165,7 @@
 	font-size: 15px;
 	margin-top: 50px;
 }
+*/
 #skills{
 	width: auto;
 	height: 30px;
