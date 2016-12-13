@@ -33,7 +33,7 @@
 	display: block;
 	width: 100px;
 	height: 100px;
-	background: url(../img/logo.jpg);
+	background: url(../img/logo.gif);
 	float: left;
 }
 #banner{
@@ -130,6 +130,7 @@
 	margin-top: 22px;
 }
 #middle_right{
+	display: block;
 	width: 529px;
 	height: 529px;
 	background: url(../img/middle_right.jpg) no-repeat;
@@ -178,11 +179,11 @@
 #skills_icon{
 	width: 1080px;
 	height: 262px;
-	background: url(../img/skills_icon.jpg);
+	background: url(../img/skills_icon.gif);
 	background-repeat:no-repeat ;
 	margin-top: 80px;
 }
-#contact{
+/*#contact{
 	width: auto;
 	height: 600px;
 	background: #FAFAFA;
@@ -223,23 +224,70 @@
 	border: 3px solid #333333;
 	background:none ;
 }
-#footer{
+*/
+#hobbies{
 	width: auto;
+	height: 959px;
+	background: #FAFAFA;
+	margin-top: 100px;
+}
+#hobbies_name{
+	font-size: 35px;
+	text-align: center;
+}
+#hobbies_top_left{
+	width: 529px;
+	height: 430px;
+	background: url(../img/hobbies_top_left.jpg);
+	float: left;
+	margin-top:50px ;
+}
+#hobbies_top_right{
+	width: 529px;
+	height: 430px;
+	background: url(../img/hobbies_top_right.jpg);
+	float: right;
+	margin-top: 50px;
+}
+#hobbies_bottom{
+	width: 1080px;
 	height: 400px;
+	background: url(../img/hobbies_bottom.jpg);
+	float: left;
+	margin-top: 22px;
+	
+}
+#footer{
+	width: 1080px;
+	height: 450px;
+	background: #333333;
+	margin: auto;
+}
+#footer_backgrand{
+	width: auto;
+	height: 450px;
 	background: #333333;
 }
-#qr_coad{
-	border: 45px solid #333333;
-	margin: auto;
-	background: url(../img/QR-code.png);
-	width: 200px;
-	height: 200px;
-}
-#phone{
+#footer_content{
+	font-size: 15px;
 	line-height: 30px;
-	font-size: 17px;
-	color: #cacaca;
-	text-align: center;
+	color: #CCCCCC;
+	padding-top: 100px;
+	float: left;
+}
+#qr_coad{
+	width: 197px;
+	height: 197px;
+	background: url(../img/QR-code.png);
+	float: right;
+	margin-top: 50px;
+}
+#contact_me{
+	font-size: 20px;
+	line-height: 30px;
+	color: #CCCCCC;
+	text-align: right;
+	padding-top: 280px;
 }
 #up{
 	display: block;
