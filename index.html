@@ -21,7 +21,8 @@
 			.clearfix { *zoom:1; }
 		</style>
 		<link rel="shortcut icon" href="favicon.ico">
-		<link rel="stylesheet" href="css/narrative.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<script type="text/javascript" src="js/main.js"></script>
 	</head>
 	<body>
 		<div id="header_backguand"></div>
@@ -51,6 +52,8 @@
 						交互设计师<br />
 						1989.11重庆（现居杭州）<br />
 						重庆工商大学工业设计系（2009）<br />
+						三年工作经验<br />
+						有产品、视觉及摄影基础，熟悉Html+css<br />
 						15123064205<br />
 						guoguichuan@yeah.net
 						</p>
@@ -73,9 +76,25 @@
 						</p>
 					</div>
 					<div id="experience_photograph">
-						<div><a id="experience_top_left" href="http://www.east-idea.com/" target="_blank"></a></div>
-						<div><a id="experience_top_right"></a></div>
-						<div><a id="experience_bottom" href="http://www.malianghang.com" target="_blank"></a></div>
+						<div>
+							<div id="experience_top_left_hover" onmouseleave="top_left_hide()">负责部分机舱内饰，航空座椅，人民币造币机，重型机床等设备的外形和人机操作界面设计。<br />
+								<a id="experience_top_left_hover_link" href="http://www.east-idea.com/" target="_blank"><b>官网请点击</b></a>
+							</div>
+							<a id="experience_top_left" href="http://www.east-idea.com/" target="_blank" onmouseenter="top_left_show()"></a>
+						</div>
+						<div>
+							<div id="experience_top_right_hover" onmouseleave="top_right_hide()">全线产品风格把控，负责产品开发计划，跟进产品开发进度，视觉把控和供应链管理。对接合作方的设计需求。
+								<a id="experience_top_right_hover_link">暂无官网</a>
+								</div>
+							<a id="experience_top_right" onmouseenter="top_right_show()"></a>
+						</div>
+						<div>
+							<div id="experience_bottom_hover" href="http://www.malianghang.com" target="_blank" onmouseleave="buttom_hide()">我在马良行（年营业额100W+）主要负责全站页面的交互设计，分析用户流及网站数据对全站框架进行优化，分析定制类产品的定制可行性，对接其他部门对网站提出的需求，并和视觉和技术沟通协作，直至网站端落地实现。<br />
+							<a id="experience_bottom_hover_leftlink" href="http://www.malianghang.com" target="_blank"><b>官网请点击</b></a>
+							<a id="experience_bottom_hover_rightlink" href="m-lab_prototype/index.html" target="_blank"><b>移动版高保真原型请点击</b></a>
+							</div>
+							<a id="experience_bottom" href="http://www.malianghang.com" target="_blank" onmouseenter="buttom_show()"></a>
+						</div>
 					</div>
 				</div>
 				<a class="target-fix" name="p3"></a>
@@ -99,9 +118,22 @@
 					<a class="target-fix" name="p4"></a>
 				<div id="hobbies">
 					<h1 id="hobbies_name">HOBBIES</h1>
-					<div id="hobbies_top_left"></div>
-					<div id="hobbies_top_right"></div>
-					<div id="hobbies_bottom"></div>
+					<div id="hobbies_top_left" onmouseenter="hobbes_top_left_show()">
+						<div id="hobbies_top_left_hover" onmouseleave="hobbes_top_left_hide()">
+							我喜欢做饭，要知道，对于我来说，想在长三角想吃到一次地道的川菜其实很难很难，也得益于小时候条件不好，很多时候父母忙起来的时候得自己做饭，到现在我也会在朋友聚餐的时候好好秀一秀自己得意的水煮鱼和粉蒸肉，还有自己做的黑豆豆腐和用柳木甑子蒸出来的米饭。
+						</div>
+					</div>
+					<div id="hobbies_top_right" onmouseenter="hobbes_top_right_show()">
+						<div id="hobbies_top_right_hover" onmouseleave="hobbes_top_right_hide()">
+							摄影是我的另一个爱好，无奈身边没有“美女”，只好拍一些花花草草和日出日落，还有广场跳舞的大妈和街头打麻将的大叔们，到现在我才慢慢的发现“其实美，就在身边”。这是一种体会，也是一种无奈。我最近的目标是把我的D7000淘汰掉换成5D MARK IV+85mm 1.2f。
+						</div>
+					</div>
+					<div id="hobbies_bottom" onmouseenter="hobbes_buttom_show()">
+						<div id="hobbies_bottom_hover" onmouseleave="hobbes_buttom_hide()">
+							因为自己专业的原因，自己闲下来会做一些乱七八糟的模型，右边这个大个子是我前几年时候做的，这个“怪物”在我童年时候的梦里出现过，梦里它有一座山那么大，所有结构外露，动起来还有金属扭曲发出的沉闷的声音和因为电线短路发出的电光火花，我大一的时候用它作了我的结构素描和设计素描的期末考试。它没有办法动起来，也不能拿去做实物，我唯一能做的就是渲染几张酷炫的静态图，不过倒是乐在其中。几年下来，这样的模型做了很多很多…
+
+						</div>
+					</div>
 				</div>
 				<div><a id="up" href="#"></a></div>
 			</div>

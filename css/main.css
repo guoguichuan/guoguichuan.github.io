@@ -1,0 +1,371 @@
+#header_backguand{
+	width: 100%;
+	height: 100px;
+	background: #FFFFFF;
+	border-bottom:2px solid #f0f0f0 ;
+	position: fixed;top: 0px;
+	z-index: 1;
+}
+#main{
+	width: 1080px;
+	margin: 0px auto;
+	background: #FAFAFA
+}
+#header{
+	width: 1080px;
+	height: auto;
+	background: #FFFFFF;
+	border-bottom:2px solid #f0f0f0;
+	position: fixed;top: 0px ;
+	z-index: 1;
+}
+#menu_fl{
+	float: right;
+	margin-top: 35px;
+}
+.menu{
+	font-size: 20px;
+	margin-left:30px ;
+}
+#download{
+	border: 2px solid;
+	padding: 10px;
+}
+#logo{
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: url(../img/logo.gif);
+	float: left;
+}
+#banner{
+	width: auto;
+	height: 685px;
+	background:url(../img/banner_04.jpg) ;
+	background-position:center;
+	background-size:cover ;
+	margin-top:100px ;
+}
+#personal_frofile{
+	width: auto;
+	height: 400px;
+	background: url(../img/resume.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+#about{
+	width: auto;
+	background: #FAFAFA;
+	margin-top:100px ;
+}
+#introduction{
+	width: 360px;
+	height: 547px;
+	font-size: 30px;
+	float: left;
+}
+#about_content{
+	font-size: 15px;
+	float: right;
+	margin:240px 20px;
+	text-align: right;
+	line-height: 35px;
+}
+#photograph{
+	width: 720px;
+	height: 547px;
+	background: url(../img/photograph.jpg);
+	margin-left:360px ;
+}
+#experience{
+	width: auto;
+	height: 718px;
+	background: #FAFAFA;
+	margin-top:100px ;
+}
+#experience_introduction{
+	width: 362px;
+	height: 718px;
+	background: #FAFAFA;
+	float: right;
+}
+#experience_name{
+	float: right;
+	font-size: 35px;
+}
+#experience_content{
+	float: right;
+	font-size: 15px;
+	margin-top:445px ;
+	text-align: right;
+	line-height: 30px;
+}
+#experience_photograph{
+	width: 718px;
+	height: 718px;
+	background: #FAFAFA;
+}
+#experience_top_left{
+	width: 355px;
+	height: 355px;
+	background: url(../img/experience_top_left.jpg);
+	float: left;
+}
+#experience_top_left_hover{
+	display: none;
+	width: 255px;
+	height: 155px;
+	color: white;
+	line-height: 25px;
+	background: #333333;
+	opacity: 0.9;
+	position: absolute;
+	padding: 100px 50px;
+}
+#experience_top_left_hover_link{
+	text-align: center;
+	display: block;
+	color: white;
+	border: 1px solid white;
+	padding: 15px;
+	margin-top: 50px;
+}
+#experience_top_right{
+	width: 355px;
+	height: 355px;
+	background: url(../img/experience_top_right.jpg);
+	float: right;
+}
+#experience_top_right_hover{
+	display: none;
+	width: 255px;
+	height: 155px;
+	color: white;
+	line-height: 25px;
+	background: #333333;
+	opacity: 0.9;
+	position: absolute;
+	padding: 100px 50px;
+	margin-left: 363px ;
+}
+#experience_top_right_hover_link{
+	text-align: center;
+	display: block;
+	color: #888888;
+	border: 1px solid #888888;
+	padding: 15px;
+	margin-top: 50px;
+}
+#experience_bottom{
+	width: 718px;
+	height: 355px;
+	background: url(../img/experience_bottom.jpg);
+	float: left;
+	margin-top: 8px;
+}
+#experience_bottom_hover{
+	display: none;
+	width: 618px;
+	height: 155px;
+	color: white;
+	line-height: 25px;
+	background: #333333;
+	opacity: 0.9;
+	position: absolute;
+	padding: 100px 50px;
+	margin-top: 363px;
+}
+#experience_bottom_hover_leftlink{
+	color: white;
+	display: block;
+	border: 1px solid white;
+	padding: 15px 90px;
+	margin-top: 50px;
+	float: left;
+}
+#experience_bottom_hover_rightlink{
+	color: white;
+	display: block;
+	border: 1px solid white;
+	padding: 15px 45px;
+	margin-top: 50px;
+	float: right;
+}
+#works{
+	width: 1080px;
+	height: 1409px;
+	margin-top: 100px;
+}
+#top_left{
+	width: 529px;
+	height: 529px;
+	background: url(../img/top_left.jpg) no-repeat;
+	background-position: bottom right;
+	float: left;
+}
+#top_right{
+	display: block;
+	width: 529px;
+	height: 529px;
+	background: url(../img/top_right.jpg) no-repeat;
+	float: right;
+}
+#middle_left{
+	width: 529px;
+	height: 529px;
+	background: url(../img/middle_left.jpg) no-repeat;
+	float: left;
+	margin-top: 22px;
+}
+#middle_right{
+	display: block;
+	width: 529px;
+	height: 529px;
+	background: url(../img/middle_right.jpg) no-repeat;
+	float: right;
+	margin-top: 22px;
+}
+#bottom_left{
+	width: 529px;
+	height: 258px;
+	background: url(../img/bottom_left.jpg) no-repeat;
+	float: left;
+	background-position: right;
+	margin-top: 22px;
+}
+#bottom_right{
+	display: block;
+	width: 529px;
+	height: 258px;
+	background: url(../img/buttom_right.png) no-repeat;
+	float: right;
+	margin-top: 22px;
+}
+#works_name{
+	font-size: 35px;
+}
+#works_content{
+	font-size: 15px;
+	margin-top: 50px;
+}
+#skills{
+	width: auto;
+	height: 30px;
+	margin-top:200px ;
+	font-size: 35px;
+	text-align: center;
+}
+#skills_icon{
+	width: 1080px;
+	height: 262px;
+	background: url(../img/skills_icon.gif);
+	background-repeat:no-repeat ;
+	margin-top: 80px;
+}
+#hobbies{
+	width: auto;
+	height: 959px;
+	background: #FAFAFA;
+	margin-top: 100px;
+}
+#hobbies_name{
+	font-size: 35px;
+	text-align: center;
+}
+#hobbies_top_left{
+	width: 529px;
+	height: 430px;
+	background: url(../img/hobbies_top_left.jpg);
+	float: left;
+	margin-top:50px ;
+}
+#hobbies_top_left_hover{
+	width: 429px;
+	height: 230px;
+	background: #333333;
+	opacity: 0.9;
+	color: white;
+	line-height: 25px;
+	padding: 100px 50px;
+	display: none;
+}
+#hobbies_top_right{
+	width: 529px;
+	height: 430px;
+	background: url(../img/hobbies_top_right.jpg);
+	float: right;
+	margin-top: 50px;
+}
+#hobbies_top_right_hover{
+	width: 429px;
+	height: 230px;
+	background: #333333;
+	opacity: 0.9;
+	color: white;
+	line-height: 25px;
+	padding: 100px 50px;
+	display: none;
+}
+#hobbies_bottom{
+	width: 1080px;
+	height: 430px;
+	background: url(../img/hobbies_bottom.jpg);
+	float: left;
+	margin-top: 22px;
+}
+#hobbies_bottom_hover{
+	width: 980px;
+	height: 230px;
+	background: #333333;
+	opacity: 0.9;
+	color: white;
+	line-height: 25px;
+	padding: 100px 50px;
+	display: none;
+}
+#footer{
+	width: 1080px;
+	height: 450px;
+	background: #333333;
+	margin: auto;
+}
+#footer_backgrand{
+	width: auto;
+	height: 450px;
+	background: #333333;
+}
+#footer_content{
+	font-size: 15px;
+	line-height: 30px;
+	color: #CCCCCC;
+	padding-top: 100px;
+	float: left;
+}
+#qr_coad{
+	width: 197px;
+	height: 197px;
+	background: url(../img/QR-code.png);
+	float: right;
+	margin-top: 50px;
+}
+#contact_me{
+	font-size: 20px;
+	line-height: 30px;
+	color: #CCCCCC;
+	text-align: right;
+	padding-top: 280px;
+}
+#up{
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: url(../img/up.png) no-repeat center;
+	margin: 100px auto;
+}
+.target-fix{
+	position: relative;  
+    top: -50px;   
+    display: block;  
+    height: 0px;  
+    overflow: hidden;
+}
