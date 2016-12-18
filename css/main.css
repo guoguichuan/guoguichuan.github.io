@@ -40,15 +40,16 @@
 }
 #banner{
 	width: auto;
-	height: 685px;
-	background:url(../img/banner_04.jpg) ;
+	/*height: 685px;*/
+	height: 800px;
+	background-image: url(http://oibnt7e9x.bkt.clouddn.com/banner_04.jpeg);
 	background-position:center;
 	background-size:cover ;
 	margin-top:100px ;
 }
 #personal_frofile{
 	width: auto;
-	height: 400px;
+	height: 450px;
 	background: url(../img/resume.png);
 	background-repeat: no-repeat;
 	background-position: bottom center;
