@@ -239,6 +239,7 @@
 }
 #works_content{
 	font-size: 15px;
+	line-height: 25px;
 	margin-top: 50px;
 }
 #skills{
@@ -274,12 +275,12 @@
 }
 #hobbies_top_left_hover{
 	width: 429px;
-	height: 230px;
+	height: 130px;
 	background: #333333;
 	opacity: 0.9;
 	color: white;
 	line-height: 25px;
-	padding: 100px 50px;
+	padding: 150px 50px;
 	display: none;
 }
 #hobbies_top_right{
@@ -291,12 +292,12 @@
 }
 #hobbies_top_right_hover{
 	width: 429px;
-	height: 230px;
+	height: 130px;
 	background: #333333;
 	opacity: 0.9;
 	color: white;
 	line-height: 25px;
-	padding: 100px 50px;
+	padding: 150px 50px;
 	display: none;
 }
 #hobbies_bottom{
@@ -308,12 +309,12 @@
 }
 #hobbies_bottom_hover{
 	width: 980px;
-	height: 230px;
+	height: 130px;
 	background: #333333;
 	opacity: 0.9;
 	color: white;
 	line-height: 25px;
-	padding: 100px 50px;
+	padding: 150px 50px;
 	display: none;
 }
 #footer{
