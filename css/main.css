@@ -96,9 +96,9 @@
 #experience_content{
 	float: right;
 	font-size: 15px;
-	margin-top:445px ;
+	margin-top:400px ;
 	text-align: right;
-	line-height: 30px;
+	line-height: 25px;
 }
 #experience_photograph{
 	width: 718px;
@@ -147,14 +147,6 @@
 	position: absolute;
 	padding: 100px 50px;
 	margin-left: 363px ;
-}
-#experience_top_right_hover_link{
-	text-align: center;
-	display: block;
-	color: #888888;
-	border: 1px solid #888888;
-	padding: 15px;
-	margin-top: 50px;
 }
 #experience_bottom{
 	width: 718px;
