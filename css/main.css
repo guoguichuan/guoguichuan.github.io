@@ -238,9 +238,11 @@
 	font-size: 35px;
 }
 #works_content{
+	position: absolute;
 	font-size: 15px;
 	line-height: 25px;
 	margin-top: 50px;
+	float: left;
 }
 #skills{
 	width: auto;
