@@ -1,7 +1,11 @@
 
-}body{
+body{
 	background-color: #F2F2F2;
 	/*background-color: #363636;*/
+}
+::selection {
+background:#979797;
+color:#fff;
 }
 .main{
 	width: 1024px;
