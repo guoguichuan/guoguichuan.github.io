@@ -41,7 +41,7 @@ color:#fff;
 	margin-left:850px; 
 	margin-right: 100px;
 	padding-top: 30px;
-	font-weight: 900;
+	/*font-weight: 900;*/
 	font-family: pingfang_re;
 	float:right;
 }
@@ -61,7 +61,7 @@ color:#fff;
 }
 .xiaobiaoti{
 	font-size: 25px;
-	font-weight: 900;
+	/*font-weight: 900;*/
 	font-family: pingfang_re;
 }
 
@@ -73,7 +73,7 @@ color:#fff;
 }
 .xiaobiaotier{
 	font-size: 17px;
-	font-weight: 900;
+	/*font-weight: 900;*/
 	font-family: pingfang_re;
 }
 .experience{
