@@ -1,7 +1,6 @@
 
 body{
 	background-color: #F2F2F2;
-	/*background-color: #363636;*/
 }
 ::selection {
 background:#979797;
@@ -143,14 +142,22 @@ color:#fff;
 .textcenter{
 	text-align: center;
 }
-.btm{
+.backtop{
+	width: 1024px;
+	background-color: #f2f2f2;
+	margin:0 auto ;
+	/*text-align: center;*/
+}
+.backtop a{
+	display: block;
+	margin: 0 auto;
 	text-align: center;
+	width: 100px;
 }
 .btmimg{
 	width: 24px;
 	height: 76px;
 }
-
 
 
 
