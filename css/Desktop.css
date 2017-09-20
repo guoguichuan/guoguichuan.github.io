@@ -56,8 +56,8 @@ color:#fff;
 }
 .resume{
 	font-size: 45px;
-	font-weight: 900;
-	/*font-family: pingfang_re;*/
+	/*font-weight: 900;*/
+	font-family: pingfang_re;
 }
 .xiaobiaoti{
 	font-size: 25px;
@@ -82,7 +82,10 @@ color:#fff;
 .xiahuaxian{
 	margin-right: 30px; 
 	text-decoration: underline;
-	float: left;
+	/*float: left;*/
+}
+.minganxinxi{
+	display: inline;
 }
 .skills{
 
@@ -133,8 +136,10 @@ color:#fff;
 	float: left;
 }
 .about{
-	width: 425px;
-	margin: 0 auto;
+	/*width: 425px;*/
+	/*display: block;*/
+	/*margin: 0 auto;*/
+	text-align: center;
 }
 .wechat{
 	text-align: center;
