@@ -34,6 +34,22 @@ html {overflow-y: scroll;}
 <meta charset="utf-8">
 	<title>郭贵川个人简历</title>
 	<link rel="stylesheet" type="text/css" href="css/Desktop.css">
+<script>
+window.onload = function(){
+  var oTop = document.getElementById("to_top");
+  var screenw = document.documentElement.clientWidth || document.body.clientWidth;
+  var screenh = document.documentElement.clientHeight || document.body.clientHeight;
+  oTop.style.left = screenw - oTop.offsetWidth +"px";
+  oTop.style.top = screenh - oTop.offsetHeight + "px";
+  window.onscroll = function(){
+    var scrolltop = document.documentElement.scrollTop || document.body.scrollTop;
+    oTop.style.top = screenh - oTop.offsetHeight + scrolltop +"px";
+  }
+  oTop.onclick = function(){
+    document.documentElement.scrollTop = document.body.scrollTop =0;
+  }
+}  
+</script>
 </head>
 <body>
 <div class="main">
@@ -90,7 +106,7 @@ html {overflow-y: scroll;}
 			和技术同学交接产品细节、跟进项目执行、并持续优化产品功能及布局</p>
 			<div class="gap20"></div>
 			<!-- <a class="xiahuaxian">产品官网</a> -->
-			<a class="xiahuaxian" href="http://u.pmdaniu.com/1Wqm" target="_blank" title="星主页产品原型">产品原型</a>
+			<a class="xiahuaxian" href="http://u.pmdaniu.com/oVPB" target="_blank" title="星主页产品原型">产品原型</a>
 			<div class="gap20"></div>
 			<div class="gap20"></div>
 			<div class="gap20"></div>
