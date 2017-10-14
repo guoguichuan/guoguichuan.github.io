@@ -64,7 +64,10 @@ color:#fff;
 	/*font-weight: 900;*/
 	font-family: pingfang_re;
 }
-
+.xiaobiaoti a{
+	font-size: 20px;
+	font-family:pingfang_re;
+}
 .xiaobiaoti img{
 	position: absolute;
 	margin: 2px 0 0 10px;
