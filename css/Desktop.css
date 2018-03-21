@@ -61,7 +61,9 @@ color:#fff;
 }
 #zuopinji{
 	text-align: center;
-	display: block;
+	margin-right: 4px;
+	padding: 0px 8px;
+	/*display: block;*/
 	width: 100px;
 	background: #2a2a2a;
 	/*border-radius: 4px;*/
